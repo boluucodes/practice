@@ -1,0 +1,41 @@
+:root{
+    --background: #2c2c2c;
+    --accent: #ff9950;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+.background{
+    background-color: var(--background);
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+.button{
+    border: 0px solid;
+    outline: 2px solid;
+    color: white;
+    outline-color: white;
+    outline-offset: 0px;
+    cursor: pointer;
+    font-size: 1rem;
+    line-height: 2.5rem;
+    width: 200px;
+    position: relative;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    transition: all 500ms cubic-bezier(.36,.63,.5,.73);
+}
+.button:hover{
+    border: 2px solid var(--accent);
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;
+    color: var(--accent);
+}

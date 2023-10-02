@@ -1,0 +1,44 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('');
+    background-size: cover;
+    text-align: center;
+    padding-top: 4rem;
+}
+.header{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+}
+.container{
+    display: flex;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 10px 5px; */
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, .1);
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, .4);
+    height: 250px;
+    transition: all 250ms ease-in-out;
+    width: 150px;
+}
+.card:not(:first-child){
+    margin-left: -10px;
+}
+.card:hover{
+    transform: translateY(-30px);
+    rotate: -15deg;
+}
+.card:hover ~ .card{
+    /* left: 20px; */
+}

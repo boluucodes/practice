@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../Desktop/practice/button"
+		},
+		{
+			"path": "../../Desktop/practice/hamburger"
+		},
+		{
+			"path": "../../Desktop/practice/Task 2"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "practice-1"
+	}
+}
